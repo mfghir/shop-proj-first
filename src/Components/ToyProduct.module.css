@@ -1,0 +1,86 @@
+.ToyProduct {
+  width: 250px;
+  height: 350px;
+  border-radius: 50px;
+
+  background: #c7d2fe;
+  box-shadow: 20px 20px 60px #a9b3d8, -20px -20px 60px #e5f2ff;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  align-content: space-between;
+  margin: 50px;
+  position: relative;
+}
+
+.ToyProduct figure {
+  width: 170px;
+  height: 170px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.ToyProduct figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.ToyProduct p {
+  padding: 10px 0 10px 0;
+}
+
+.ToyProduct div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.btn {
+  padding: 5px 7px;
+  outline: none;
+  border: 2px solid #2563eb;
+
+  color: #2563eb;
+  border-radius: 7px;
+  font-size: 14px;
+  
+  cursor: pointer;
+}
+
+.close {
+  display: block;
+  position: absolute;
+  color: #a5b4fc;
+
+  float: right;
+  top: 20px;
+  right: 30px;
+  
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.close:hover {
+  color: #1e3a8a;
+}
+
+.add {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.remove {
+  border: 2px solid #ff6347;
+  color: #ff6347;
+}
